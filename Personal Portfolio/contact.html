@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cstyle.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    
+    <div class="contact-me">
+        <h1>Contact Me!</h1><br>
+    <form action="action-page.php">
+        
+        <div>
+            <form id="register" method="post">
+        <label for="fname">First Name </label><br>
+        <input type="text" id="fname" name="fname" placeholder="Spongebob">
+            </form>
+        </div><br>
+
+        <div>
+            <form id="register" method="post">
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Square Pants">
+           </form>
+        </div><br>
+
+        <div>
+            <form id="register" method="post">
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass " name="pass" maxlength="12" placeholder="************">
+            </form>
+        </div><br>
+
+        <div>
+            <label for="email">Email ID:</label><br>
+            <input type="email" id="email " name="email" placeholder="SPants@gmail.com" >
+        </div><br>
+
+        <div>
+            <label for="phone">Phone No.:</label><br>
+            <input type="tel" id="phone" name="phone" maxlength="10" placeholder="(123)-456-7890" >
+        </div><br>
+
+        <div>
+            <label for="gender">Gender:</label>
+
+            <input type="radio" name="gender">
+            <label for="Male">Male</label>
+
+            <input type="radio" name="gender">
+            <label for="Female">Female</label>
+            
+        </div><br>
+
+        <div class="button">
+            <input type="submit">
+        </div><br>
+    </form>
+</div>
+</body>
+</html>
